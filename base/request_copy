@@ -1,0 +1,19 @@
+fetch("https://fixes-mywork-bugs.otrs365.cn/otrs/indexNew.pl?", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://fixes-mywork-bugs.otrs365.cn/user/admin/agent/overview",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "Subaction=Save&data=%7B%22UserID%22:%227%22,%22data%22:%7B%22ValidID%22:%221%22,%22UserEmail%22:%22565997450@qq.com%22,%22UserLogin%22:%22hhf%22,%22UserFirstname%22:%22hhfx%22,%22UserMobile%22:null,%22UserCity%22:%22%22,%22JobNumber%22:null,%22UserPw%22:null,%22UserFullname%22:%22hhfx%22,%22UserTitle%22:null,%22UserDistrict%22:null,%22UserLastname%22:%22hhfx%22,%22UserID%22:%227%22%7D%7D&Action=admin_agent_overview_a",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
